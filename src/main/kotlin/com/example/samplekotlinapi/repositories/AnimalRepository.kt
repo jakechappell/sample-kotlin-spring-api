@@ -20,8 +20,6 @@ class AnimalRepository : IAnimalRepository{
     }
 
     override fun getAnimalById(id: String): Animal? {
-//        return animals.firstOrNull { animal: Animal -> animal.id == id }
         return animals.firstOrNull { animal: Animal -> animal.id == id }
     }
-
 }
